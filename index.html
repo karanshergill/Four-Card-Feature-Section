@@ -6,11 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon">
     <title>Frontend Mentor | Four Card Feature Section</title>
-    <link rel="stylesheet" href="style.css">nk
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <main class="">
+        <header class="flex flex-col text-center gap-2 my-16">
+            <h1 class="text-3xl md:text-4xl font-extralight text-Neutral-Very-Dark-Blue">Reliable, efficient delivery
+            </h1>
+            <h2 class="text-3xl md:text-4xl font-semibold text-Neutral-Very-Dark-Blue">Powered by Technology</h2>
+            <p class="text-lg text-Neutral-Grayish-Blue mt-2 px-8 md:mt-6 md:mx-96 md:px-16">Our Artificial Intelligence
+                powered
+                tools use
+                millions of
+                project data points to ensure that your project is successful</p>
+        </header>
 
+        <section class="flex items-center justify-center mb-16">
+
+            <!-- Cards -->
+            <div class="grid grid-cols-1 gap-8 items-center md:grid-cols-3 md:grid-rows-2">
+
+                <!-- Supervisor Card -->
+                <div
+                    class="flex flex-col p-8 w-80 h-60 md:row-span-2 rounded-md border-t-4 border-Primary-Cyan shadow-xl">
+                    <h3 class="text-lg font-semibold text-Neutral-Very-Dark-Blue">Supervisor</h3>
+                    <p class="text-xs text-Neutral-Grayish-Blue mt-2">Monitors activity to identify project roadblocks
+                    </p>
+                    <img src="/images/icon-supervisor.svg" class="w-12 ml-auto mt-auto" alt="Supervisor Icon">
+                </div>
+
+                <!-- Team Builder Card -->
+                <div class="flex flex-col p-8 w-80 h-60 rounded-md border-t-4 border-Primary-Red shadow-xl">
+                    <h3 class="text-lg font-semibold text-Neutral-Very-Dark-Blue">Team Builder</h3>
+                    <p class="text-xs text-Neutral-Grayish-Blue mt-2">Scans our talent network to create the optimal
+                        team for
+                        your project</p>
+                    <img src="/images/icon-team-builder.svg" class="w-12 ml-auto mt-auto" alt="Team Builder Icon">
+                </div>
+
+                <!-- Karma Card -->
+                <div
+                    class="flex flex-col p-8 border-t-4 border-Primary-Orange w-80 h-60 rounded-md md:col-start-2 shadow-xl">
+                    <h3 class="text-lg font-semibold text-Neutral-Very-Dark-Blue">Karma</h3>
+                    <p class="text-xs text-Neutral-Grayish-Blue mt-2">Regularly evaluates our talent to ensure quality
+                    </p>
+                    <img src="/images/icon-karma.svg" class="w-12 ml-auto mt-auto" alt="Karma Icon">
+                </div>
+
+                <!-- Calculator Card -->
+                <div
+                    class="flex flex-col p-8 border-t-4 border-Primary-Blue w-80 h-60 rounded-md md:col-start-3 md:row-start-1 md:row-span-2 shadow-xl">
+                    <h3 class="text-lg font-semibold text-Neutral-Very-Dark-Blue">Calculator</h3>
+                    <p class="text-xs text-Neutral-Grayish-Blue mt-2">Uses data from past projects to provide better
+                        delivery
+                        estimates</p>
+                    <img src="/images/icon-calculator.svg" class="w-12 ml-auto mt-auto" alt="Calculator Icon">
+                </div>
+        </section>
+        </div>
+
+    </main>
 </body>
 
 </html>
